@@ -23,6 +23,7 @@ body {
 	width: inherit;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-top: 10px;
 	height: 60px;
 }
 
@@ -62,10 +63,46 @@ body {
 }
 
 .hero {
-	
+	padding-bottom: 50px;
 }
 .hero-wrapper {
 	display: flex;
+	padding-top: 30px;
+}
+
+.hero-text-main {
+	flex: 1;
+}
+.hero-image {
+	flex: 1;
+	background-color: grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hero-image p {
+	color: white;
+}
+
+.hero-text-main h1 {
+	color: #f9faf8;
+	font-size: 48px;
+	font-weight: 800;
+}
+.hero-text-main h2 {
+	color: #e5e7eb;
+	font-size: 18px;
+	font-weight: 300;
+	padding: 10px 0px 10px 0px;
+}
+.hero-text-main button {
+	background-color: #3882f6;
+	border-radius: 7px;
+	width: 100px;
+	height: 35px;
+	border: 0px;
+	font-weight: 500;
+	color: white;
 }
 
 .hero-color {
