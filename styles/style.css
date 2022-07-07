@@ -48,13 +48,14 @@ body {
 
 .header-links {
 	display: flex;
+	justify-content: space-between;
+	width: 200px;
 }
 
 .header-link-item {
 	text-decoration: none;
 	color: #e5e7eb;
 	width: max-content;
-	margin: 10px;
 }
 
 .hero {
@@ -106,4 +107,36 @@ body {
 
 .main {
 	margin-top: 60px;
+}
+.rand-info-header {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.rand-info-header h1 {
+
+}
+.rand-content {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	margin-bottom: 50px;
+}
+.rand-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.rand-image-section {
+	width: 10vw;
+	height: 10vw;
+	border: 3px;
+	border-style: solid;
+	border-color: #3882f6;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+.rand-text-section {
+	text-align: center;
+	width: 10vw;
 }
